@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.detalhes-carro {
+    text-align: center;
+    padding: 40px;
+}
+
+.detalhes-carro img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.detalhes-carro h2 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #000000; /* Preto */
+}
+
+.detalhes-carro p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333333;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+#voltar{
+    color: #ffffff;
+    text-decoration: none;
+}
+

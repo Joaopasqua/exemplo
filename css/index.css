@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    color: #333333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.carros {
+    margin-left: 3%;
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.carro {
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.carro:hover {
+    transform: scale(1.05);
+}
+
+.carro img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carro p {
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #333333; 
+    color: #ffffff; 
+}
+
+a {
+    text-decoration: none;
+    color: #000000; 
+}
+
+a:hover {
+    color: #555555; 
+}
+
+footer {
+    background-color: #1c1c1c; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
+
+#email{
+    color: #f0f0f0;
+}
+#telefone{
+    color: #ffffff;
+}
+
+.pesquisar{
+    border-radius: 20px;
+}
